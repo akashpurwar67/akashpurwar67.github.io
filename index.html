@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Trip</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+        <!--===========Nav Bar=================-->
+        <section class="nav-bar">
+            <div class="logo" style="color: #6756d5;">TOURISM</div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Package</a></li>
+                <li><a href="/contactus.html">Contact us</a></li>
+                <li><a href="/login.html">Login</a></li>
+            </ul>
+            </div>
+
+        </section>
+        <!--===============Banner================-->
+        <section class="banner">
+            <div class="banner-text-item">
+                <div class="banner-heading">
+                    <h1>Find your Next Place!</h1>
+                </div>
+                <form class="form" name="form1">
+                    <input type="text" list="mylist" name="ser" placeholder="Where would you like to go?">
+                    <datalist id="mylist">
+                        <option>Hyedrabad</option>
+                        <option>Warangal</option>
+                        <option>Ramoji Film city</option>
+                        <option>Rammapa Temple</option>
+                    </datalist>
+                    <a class="book" onclick="fun()">Search</a>
+                </form>
+            </div>
+        </section>
+        <!--==============Places===================-->
+        <section class="places">
+            <div class="places-text">
+                <h2>Favourite Places</h2>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <a href="/2.html"><img src="/filmcity.png"></a>
+
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2 style="color: #6756d5;">Ramoji Filmcity Hyderabad</h2>
+                        <div class="card-box">
+                            <p class="location">Filmcity, Hyderabad</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="/ramappa.png">
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2 style="color: #6756d5;">Rammapa Temple</h2>
+                        <div class="card-box">
+                            <p class="location">Rammapa Temple, Warangal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/chharminnar.jpg">
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2 style="color: #6756d5;">chharminnar</h2>
+                        <div class="card-box">
+                            <p class="location">chharminnar, Hyderabad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/bhadrakali.png">
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2 style="color: #6756d5;">bhadrakali Temple</h2>
+                        <div class="card-box">
+                            <p class="location">bhadrakali Temple,Warangal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/ramappalake.png">
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2 style="color: #6756d5;">Ramappa lake</h2>
+                        <div class="card-box">
+                            <p class="location">Ramappa lake, Warangal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/thousand.png">
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2 style="color: #6756d5;">Thousand Piller</h2>
+                        <div class="card-box">
+                            <p class="location">Thousand Piller Temple,Warangal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="places" id="places1">
+            <div class="places-text">
+                <h2>Most Packages</h2>
+            </div>
+            <div class="cards">  
+                <div class="card">
+                    <img src="/thousand.png">
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2 style="color: #6756d5;">Warangal City</h2>
+                        <p class="cost">2000-3000 / Per Person</p>
+                        <div class="card-box">
+                            <p class="location">Warangal City Package</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/hydra.png">
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2 style="color: #6756d5;">Hyedrabad City</h2>
+                        <p class="cost">4000-5000 / Per Person</p>
+                        <div class="card-box">
+                            <p class="location">Hyderabad City Package</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="/2.html"><img src="/film.png"></a>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2 style="color: #6756d5;">Ramoji Film City</h2>
+                        <p class="cost">2000 / Per Person</p>
+                        <div class="card-box">
+                            <p class="location">Ramoji Film City Package</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!--===========Footer=================-->
+       <div class="container" id="container">
+        <div class="single">
+            <h2>LINK</h2>
+            <div class="single-footer-txt">
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Places</a></p>
+                <p><a href="#">Packages</a></p>
+                <p><a href="#">Special Offers</a></p>
+            </div>
+        </div>
+        <div class="single">
+            <h2>PLACES</h2>
+            <div class="single-footer-txt">
+                <p><a href="#">Warangal Fort</a></p>
+                <p><a href="#">Hassain Sagar Lake</a></p>
+                <p><a href="#">Film City</a></p>
+                <p><a href="#">Golconda Fort</a></p>
+                <p><a href="#">Pakkal Lake</a></p>
+                <p><a href="#">Charminar</a></p>
+            </div>
+        </div>
+        <div class="single">
+            <h2 class="text-left">CONTACTS</h2>
+            <div class="single-footer-txt text-left">
+                <p>+91 7081674245</p>
+                <p class="foot-email"><a href="#">ap23mcf1r03@stduent.nitw.ac.in</a></p>
+                <p>NIT Warangal, Telangana</p>
+                <p>Telangana, India</p>
+                <p>506004</p>
+                <p><a href="#">any enquery</a></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function fun(){
+            let data = document.form1.ser.value;
+            console.log(data);
+            if(data=="Hyedrabad")
+                window.open("2.html","_self");     
+        }
+    </script>
+</body>
+
+
+
+</html>
