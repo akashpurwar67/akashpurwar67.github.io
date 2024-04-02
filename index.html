@@ -32,10 +32,18 @@
                 <form class="form" name="form1">
                     <input type="text" list="mylist" name="ser" placeholder="Where would you like to go?">
                     <datalist id="mylist">
-                        <option>Hyedrabad</option>
-                        <option>Warangal</option>
-                        <option>Ramoji Film city</option>
-                        <option>Rammapa Temple</option>
+                        <option>Filmcity</option>
+                        <option>Thousand pillar temple</option>
+                        <option>Ramappa temple</option>
+                        <option>Charminar</option>
+                        <option>Bhadrakali temple</option>
+                        <option>Pakhal lake</option>
+                        <option>Nehru zoological park</option>
+                        <option>Hussain sagar lake</option>
+                        <option>Warangal fort</option>
+                        <option>Birla mandir</option>
+                        <option>Chowmahalla</option>
+                        <option>Golconda fort</option>
                     </datalist>
                     <a class="book" onclick="fun()">Search</a>
                 </form>
@@ -60,7 +68,7 @@
 
                 </div>
                 <div class="card">
-                    <img src="/ramappa.png">
+                    <a href="/Ramappa_temple.html"><img src="/ramappa.png"></a>
                     <div class="text">
                         <span class="rating">⭐⭐⭐⭐⭐</span>
                         <h2 style="color: #6756d5;">Rammapa Temple</h2>
@@ -70,7 +78,8 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="/chharminnar.jpg">
+                    
+                    <a href="/Charminar.html"><img src="/chharminnar.jpg"></a>
                     <div class="text">
                         <span class="rating">⭐⭐⭐⭐⭐</span>
                         <h2 style="color: #6756d5;">Charminar</h2>
@@ -80,7 +89,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="/bhadrakali.png">
+                    <a href="/Bhadrakali_temple.html"><img src="/bhadrakali.png"></a>
                     <div class="text">
                         <span class="rating">⭐⭐⭐⭐⭐</span>
                         <h2 style="color: #6756d5;">Bhadrakali Temple</h2>
@@ -90,17 +99,17 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="/ramappalake.png">
+                    <a href="/Pakhal_lake.html"><img src="/ramappalake.png"></a>
                     <div class="text">
                         <span class="rating">⭐⭐⭐⭐⭐</span>
-                        <h2 style="color: #6756d5;">Ramappa lake</h2>
+                        <h2 style="color: #6756d5;">Pakkal lake</h2>
                         <div class="card-box">
-                            <p class="location" style="color: white;">Ramappa lake, Warangal</p>
+                            <p class="location" style="color: white;">Pakkal lake, Warangal</p>
                         </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="/thousand.png">
+                     <a href="/Thousand_pillar_temple.html"><img src="/thousand.png"></a>
                     <div class="text">
                         <span class="rating">⭐⭐⭐⭐⭐</span>
                         <h2 style="color: #6756d5;">Thousand Pillar</h2>
@@ -188,8 +197,43 @@
         function fun(){
             let data = document.form1.ser.value;
             console.log(data);
-            if(data=="Hyedrabad")
-                window.open("2.html","_self");     
+            if(data=="Filmcity")
+                window.open("2.html","_self");
+            else if(data=="Thousand pillar temple"){
+                window.open("Thousand_pillar_temple.html","_self");
+            }
+            else if(data=="Ramappa temple"){
+                window.open("Ramappa_temple.html","_self");
+            }
+            else if(data=="Charminar"){
+                window.open("Charminar.html","_self");
+            }
+            else if(data=="Bhadrakali temple"){
+                window.open("Bhadrakali_temple.html","_self");
+            }
+            else if(data=="Pakhal lake"){
+                window.open("Pakhal_lake.html","_self");
+            }
+            else if(data=="Nehru zoological park"){
+                window.open("Nehru_zoological_park.html","_self");
+            }
+            else if(data=="Hussain sagar lake"){
+                window.open("Hussain_sagar_lake.html","_self");
+            }
+            else if(data=="Warangal fort"){
+                window.open("Warangal_fort.html","_self");
+            }
+            else if(data=="Birla mandir"){
+                window.open("Birla_mandir.html","_self");
+            }
+            else if(data=="Chowmahalla"){
+                window.open("Chowmahalla.html","_self");
+            }
+            else if(data=="Golconda fort"){
+                window.open("Golconda_fort.html","_self");
+            }
+            
+            
         }
     </script>
 </body>
